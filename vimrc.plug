@@ -1,0 +1,42 @@
+call plug#begin('~/.vim/plugged')
+
+" Fugitive vim github wrapper
+Plug 'tpope/vim-fugitive'
+
+" Generic Programming Support
+Plug 'honza/vim-snippets'
+Plug 'Townk/vim-autoclose'
+Plug 'tomtom/tcomment_vim'
+Plug 'tobyS/vmustache'
+Plug 'janko-m/vim-test'
+Plug 'maksimr/vim-jsbeautify'
+Plug 'vim-syntastic/syntastic'
+Plug 'neomake/neomake'
+
+" Markdown / Writting
+Plug 'reedes/vim-pencil'
+Plug 'tpope/vim-markdown'
+Plug 'jtratner/vim-flavored-markdown'
+
+" vim theme/interface
+Plug 'ryanoasis/vim-devicons'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'sjl/badwolf'
+Plug 'tomasr/molokai'
+Plug 'morhetz/gruvbox'
+Plug 'zenorocha/dracula-theme', {'rtp': 'vim/'}
+Plug 'junegunn/limelight.vim'
+Plug 'mkarmona/colorsbox'
+Plug 'romainl/Apprentice'
+Plug 'Lokaltog/vim-distinguished'
+Plug 'chriskempson/base16-vim'
+Plug 'w0ng/vim-hybrid'
+Plug 'AlessandroYorba/Sierra'
+Plug 'daylerees/colour-schemes'
+Plug 'effkay/argonaut.vim'
+Plug 'atelierbram/Base2Tone-vim'
+Plug 'colepeters/spacemacs-theme.vim'
+Plug 'preservim/nerdtree'
+
+call plug#end()
